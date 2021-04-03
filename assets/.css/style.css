@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.head {
+    color:white;
+    text-align:center;
+}
+.allbox {
+    color: white;
+
+}
+
+.card {
+    border: solid 1px white;
+    border-radius:5px;
+    margin:auyto;
+    padding:2px;
+    font-size:20px;
+    margin-top;
+    z-index:9;
+    width: 195px;
+.small-box:background-color{
+    
+}
+
+}
+
+footer {
+        text-align: center;
+        color:rgb(155, 23, 155);
+    }
+
+
+}
