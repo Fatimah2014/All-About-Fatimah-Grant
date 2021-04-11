@@ -89,8 +89,7 @@
     border-bottom: 8px solid var(--light) ;
   }
 
-  #section-2 #content
-     {
+  #section-2 #content {
     position: absolute;
     bottom: 0;
       color: var(--ocean);
@@ -104,6 +103,7 @@
   #content{
     margin-left: 60px;
     height:700px;
+    flex-shrink: 2;
     }
 
   #about-me, #work {
@@ -115,8 +115,7 @@
   }
     
   #photo {
-    display:flex;
-    flex-direction: row; 
+ 
     float: right;
     margin-right: 450px;
     margin-bottom: 50px;
@@ -124,15 +123,17 @@
   }
    
   p {
-  
+  text-wrap: none;
     align-items: center;
     justify-content:center;
     flex-basis: 100px;
     border:1px solid var(--light);
+    background-color: var(--ocean);
     width: 30%;
     margin: 40px;
     padding: 2%; 
     margin-left: 20%;
+    
 
   }
   #section-3 {
