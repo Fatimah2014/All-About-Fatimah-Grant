@@ -24,8 +24,6 @@
     max-width: 100%;
     
   }
-  
-  
   nav, ul{
     display:flex;
     justify-content: space-between;
@@ -41,7 +39,7 @@
   
      }
    
-  #title {
+   #title {
     font-size: 300px;
     text-decoration: wavy;
     text-align: center;
@@ -92,45 +90,27 @@
     max-width: 100%;
     margin: 0 auto;
     border-bottom: 8px solid var(--light) ;
-    
-    
   }
-  
-  
-  
-    
-  #section-2 #content {
+
+    #section-2 #content
+     {
     position: absolute;
     bottom: 0;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: var(--ocean);
+      color: var(--ocean);
     width: 45%;
     height:80%;
     padding: 0px;
     margin-bottom: 100px;
+  }
+   
   
-     
-    }
     #content{
-    
-    
-      margin-left: 60px;
+    margin-left: 60px;
       height:700px;
     }
 
-   
-
-
-     
-      
-
-    
-
-
-    #about-me, #work {
-   
-    margin-top: 80px;
+   #about-me, #work {
+  margin-top: 80px;
   color:var(--light);
   font-size: 60px; 
   text-shadow:2px 2px 5px var(--dark);
@@ -139,26 +119,22 @@
     }
     
   #photo {
-    
     display:flex;
     flex-direction: row; 
     float: right;
     margin-right: 450px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
     
   }
    
   p {
 
-    flex-grow: 1;
-  flex-shrink: 1;
   flex-basis: 100px;
     border:1px solid var(--light);
-    width: 820px;
-    height:400px;
+    width: 30%;
     margin: 40px;
-    padding: 5%; 
-  margin-right: 100px;
+    padding: 2%; 
+    margin-left: 20%;
 
   }
   #section-3 {
@@ -167,34 +143,30 @@
     border-top: 5px solid var(--light);
    margin-top: 50px;
     border-color: var(--light);
+    box-shadow: 5px 10px #888888;
     width: 100%;
-    height: 800px;
+    height: 1100px;
   }
   
-
-
-  .column {
+.column {
     display:flex;
     flex-direction: row;
     float: left;
     width: 28%;
-    padding: 5px;
-    margin-left: 52px;
-    margin-top: 100px;
-    border: 1px solid;
+    padding: 6px;
+    margin-left: 200px;
+    margin-top: 80px;
+    border: 1px solid var(--light);
     box-shadow: 5px 10px #888888;
+    
     }
+    
   
-
-  
-  
-  
-  
-  #contact {
+#contact {
     position: absolute;
     margin-left: auto;
     background-color:var(--light);
-    margin-bottom: 10%;
+    margin-bottom: 100px;
    width:100%;
     height: 200px;
     text-align: center;
@@ -202,7 +174,6 @@
     
   
   }
-  
   
   div a {
     margin-top: 30px;
