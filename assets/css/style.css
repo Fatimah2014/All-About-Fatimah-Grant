@@ -71,72 +71,67 @@
     font-size: 50px;
   
   }
-  #photo{
-    float: left;
-    border-radius:8px;
-    margin-left: 20px;
-    box-shadow: 10px 10px 5px grey;
-  }
-    
-    #photo, p {
-    margin-top: 30px;
-    }
+  
    
   #section-2 {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    border-bottom: 8px solid var(--light) ;
+
   }
 
-  #section-2 #content {
-    position: absolute;
-    bottom: 0;
-      color: var(--ocean);
-    width: 45%;
-    height:80%;
-    padding: 0px;
-    margin-bottom: 100px;
-  }
-   
-  
-  #content{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-left: 60px;
-    height:900px;
-    
-    }
-
-  #about-me, #work {
-   margin-top: 80px;
+ #about-me, #work {
+   margin-top: 20px;
    color:var(--light);
    font-size: 60px; 
    text-shadow:2px 2px 5px var(--dark);
-   margin-left: 50px;
-  }
-    
-  #photo {
-    flex:0 0 auto;
-    float: right;
-    margin-right: 450px;
-    
-    
-  }
    
-  p {
-    flex: 6 0 auto;
-    align-items: baseline;
-    border:1px solid var(--light);
-    background-color: var(--ocean);
-    width: 25%;
-    margin: 40px;
-    padding: 0;
-    margin-left: 20%;
-    
-    }
+ }
+  .container {
+   display: block;
+   margin: 50px auto;
+   box-shadow: 10px 10px 5px grey;
+   width:70%;
+   height:100%;
+   padding:10%;
+   border:2px solid var(--light);
+   background-color: var(--ocean);
+  }
 
+  #work {
+    margin-top: 40px;
+    color: var(--light);
+    font-size: 60px;
+    text-shadow: 2px 2px 5px var(--dark);
+  }
+
+  #photo {
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
+    float:right;
+}
+
+#photo p {
+  margin-top: 10%;
+}
+
+p{  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 19px;
+
+}
+
+
+#work {
+  margin-top: 40px;
+  color:var(--light);
+  font-size: 60px;
+  text-shadow: 2px 2px 5px var(--dark);
+}
+  
+  
   #section-3 {
     margin-top: 50px;
     border-bottom: 5px solid var(--light);
