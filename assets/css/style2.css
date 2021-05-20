@@ -4,12 +4,22 @@ body{
 }
 
 #main-body{
-    background-color: black;
+    background-color: rgb(29, 32, 36);
 }
 #head{
     color:silver;
     background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
 }
+    #about{
+        color: white;
+    }
+
+a{
+    border-bottom: 1px solid silver;
+}
+
+  
+
 
 nav, ul{
     display:flex;
@@ -20,18 +30,48 @@ nav, ul{
   }
    
   li {
+    font-size: 18px; 
     text-decoration:none;
     display: inline;
     padding: 10px;
-    border-bottom: 1px solid silver;
+
 
   
      }
 
 
      
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #555;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+  }
+  ul li ul li a {display:block;} 
+  ul li ul li:hover {background: #666;}
+
+
+#work, #contact{
+
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+     
      #work-sec, #about{
-         background-color: grey;
+         background-color:rgb(107, 122, 136);
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
      .thumbnail:hover{
     -webkit-transform: scale(1.2);
@@ -44,6 +84,13 @@ nav, ul{
      }
      a{
          color:black;
-         text-decoration: underline;
+
      }
-    
+#footer{
+ 
+    text-align: center;
+  margin-left: 35%;
+  margin-right: 0;
+    height: 200px;
+    border-top: 1px solid white;
+}
