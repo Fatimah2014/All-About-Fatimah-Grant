@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(7, 7, 7);
+}
+.back {
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
+    height: 1000px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1%;
+  
+    color: white;
+    text-align: right;
+    max-width: 100%;
+  
+
+  }
+  nav, ul{
+    display:flex;
+    justify-content: space-between;
+    min-width:300px;
+    text-align: right;
+    font-size: 20px;
+  }
+   
+  li {
+    text-decoration:none;
+    display: inline;
+    padding: 20px;
+    float: right;
+     }
+
+
+      .cont{
+          
+        margin-top: 100px;
+      }
+      #title {
+          color: silver;
+        font-weight: 700;
+        text-align: center;
+        font-size: 100px;
+        font-family: Hack, sans-serif;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #000, #fff, #000);
+        letter-spacing: 5px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: shine 5s linear infinite;
+        position: relative;
+      }
+      
+      @keyframes shine {
+        0% {
+          background-position-x: -500%;
+        }
+        100% {
+          background-position-x: 500%;
+        }
+      }
+
+
+      font-size: 300px;
+      text-decoration: wavy;
+      text-align: center;
+      border-bottom: 8px solid var(--light);
+      animation: neon .08s ease-in-out infinite alternate;
+      font-family: "Paytone One";
+      color: #202020;
+      text-transform: uppercase;
+      letter-spacing: -2px;
+      height:300px;
+      
+      letter-spacing: 5px;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: shine 5s linear infinite;
+      position: relative;
+    }
+    
+    @keyframes shine {
+      0% {
+        background-position-x: -500%;
+      }
+      100% {
+        background-position-x: 500%;
+      }
+    }
+
+
+      #name{
+          
+        margin-top: 500px;;
+        color: silver;
+        font-size: 40px;
+        text-align: center;
+      }
+     
+
+      
+  #about-me {
+    margin-top: 20px;
+    color:var(--light);
+    font-size: 60px; 
+    text-shadow:2px 2px 5px var(--dark);
+  }
+
+  .container{
+      color: snow;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 10px 10px 5px grey;
+    width: 70%;
+    height:100%;
+    padding: 10%;
+    border: 2px solid var(--light);
+    background-color: var(--ocean);
+  }
+
+.container h1{
+    color: turquoise;
+    text-shadow:4px 4px 7px var(--dark);
+    margin-left: 80px;
+    font-size: 50px;
+}

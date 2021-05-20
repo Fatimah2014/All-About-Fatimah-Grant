@@ -1,0 +1,49 @@
+
+body{
+    background-color: black;
+}
+
+#main-body{
+    background-color: black;
+}
+#head{
+    color:silver;
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
+}
+
+nav, ul{
+    display:flex;
+    justify-content: space-between;
+    min-width:300px;
+    text-align: right;
+    font-size: 20px;
+  }
+   
+  li {
+    text-decoration:none;
+    display: inline;
+    padding: 10px;
+    border-bottom: 1px solid silver;
+
+  
+     }
+
+
+     
+     #work-sec, #about{
+         background-color: grey;
+     }
+     .thumbnail:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+
+
+
+     }
+     a{
+         color:black;
+         text-decoration: underline;
+     }
+    

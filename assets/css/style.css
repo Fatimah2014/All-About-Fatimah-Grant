@@ -2,11 +2,12 @@
 :root {
 
     --dark: rgb(3, 21, 24);
-    --light:rgb(12, 83, 92) ;
-    --ocean: turquoise;
+ 
+
   }
   body {
-    background-image:url("https://www.webzfusion.com/wp-content/uploads/2015/04/portfolio-background.gif");
+    background-color: black;
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -18,24 +19,28 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding:1%;
-    background-color: var(--light);
-    color: white;
+
     text-align: right;
     max-width: 100%;
-    
+
+        
+    background-color: rgba(41, 41, 40, 0.7) ;
+
+  
+
   }
   nav, ul{
     display:flex;
     justify-content: space-between;
     min-width:300px;
     text-align: right;
-    font-size: 30px;
+    font-size: 20px;
   }
    
   li {
     text-decoration:none;
     display: inline;
-    padding: 20px;
+    padding: 10px;
   
      }
    
@@ -43,165 +48,47 @@
     font-size: 300px;
     text-decoration: wavy;
     text-align: center;
-    border-bottom: 8px solid var(--light);
+margin-top: 100px;
     animation: neon .08s ease-in-out infinite alternate;
     font-family: "Paytone One";
     color: #202020;
     text-transform: uppercase;
     letter-spacing: -2px;
-    height:300px;
-  
-    }
+    height:400px;
     
+   }
   #title span {
   display: block;
   margin: 11px 0 17px 0;
   font-size: 80px;
   line-height: 80px;
-  color: rgb(12, 83, 92);
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
   letter-spacing: -4px;
-  }
-  
-  
-  h1{
-    color: turquoise;
-    text-shadow:4px 4px 7px var(--dark);
-    margin-left: 80px;
-    font-size: 50px;
-  
-  }
-   
-  #section-2 {
-    position: relative;
-    max-width: 100%;
-    margin: 0 auto;
-  
-  }
 
-  #about-me, #work {
-    margin-top: 20px;
-    color:var(--light);
-    font-size: 60px; 
-    text-shadow:2px 2px 5px var(--dark);
   }
-
-  .container{
-    display: block;
-    margin: 50px auto;
-    box-shadow: 10px 10px 5px grey;
-    width: 70%;
-    height:100%;
-    padding: 10%;
-    border: 2px solid var(--light);
-    background-color: var(--ocean);
-  }
-
-
-  #work {
+#divide{
+  border-bottom:2px solid silver ;
+  width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+  .name{
   
-   margin-top: 40px;
-   color:var(--light);
-   font-size: 60px; 
-   text-shadow:2px 2px 5px var(--dark);
-  }
-  
-  #photo{
-
-    border-radius:8px;
-    margin-left: 20px;
-   margin-bottom: 50px;
-    box-shadow: 10px 10px 5px grey;
-      float: right;
-    }
-    
-    #photo, p {
-    margin-top: 10%; 
-    }
-  
-    p{
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 19px;
-    }
-   
-   
-    #work {
-      margin-top: 40px;
-      color:var(--light);
-      font-size: 60px; 
-      text-shadow:2px 2px 5px var(--dark);
-     }
-     
-   
-  #section-3 {
-    margin-top: 50px;
-    border-bottom: 5px solid var(--light);
-    border-top: 5px solid var(--light);
-    margin-top: 50px;
-    box-shadow: 5px 10px #888888;
-    width: 100%;
-    height: 1100px;
-  }
-  
-.column {
-    display:flex;
-    flex-direction: row;
-    float: left;
-    width: 28%;
-    padding: 6px;
-    margin-left: 200px;
-    margin-top: 80px;
-    border: 1px solid var(--light);
-    box-shadow: 5px 10px #888888;
-
-    }
-
-  
-#contact {
-   margin-left: auto;
-  margin-bottom: 100px;
-  width:100%;
-  height: 250px;
-  text-align: center;
-  font-size: 40px;
-  background-color:var(--light);
-  
-  }
- 
-  div a {
-   margin-top: 30px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-    display:inline-block;
-    }
-  
-  ul {
-    display: inline;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul li {display: inline-block;}
-  ul li:hover {background:var(--ocean) ;}
-  ul li:hover ul {display: block;}
-  ul li ul {
-    position: absolute;
-    width: 200px;
-    display: none;
+    color:rgb(119, 114, 101);
+    font-size: 30px;
     text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: 1s ease;
   }
-  
-  ul li ul li { 
-    background:var(--ocean); 
-    display: block; 
-  }
-  ul li ul li a {display:block !important;} 
-  
-  ul li ul li:hover {
-    background: #666;
-  }
-  
-  
-  
+
+
+
