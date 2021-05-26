@@ -20,19 +20,10 @@ will display a list of application, with the repository link that I created, My 
 
 
 ## Contact 
- <!--(https://github.com/Fatimah2014)
- -->
- <!--(https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BkW4WePUcRTyREyRbVBBW7Q%3D%3D)-->
+ -github: https://github.com/Fatimah2014
+ 
+ -linkkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BkW4WePUcRTyREyRbVBBW7Q%3D%3D
 
-<!--Email: Fatimahg1102@gmail.com>
-* 2-3 Screenshots / gifs of the app
-
+-Email: Fatimahg1102@gmail.com>
 
 
-
-* License (usually MIT)
-
-* Contact information for you and any collaborators
-
-
-c
