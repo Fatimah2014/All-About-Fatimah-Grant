@@ -89,8 +89,8 @@ ul {
 #footer{
  
     text-align: center;
-  margin-left: 35%;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
     height: 200px;
-    border-top: 1px solid white;
+ 
 }
