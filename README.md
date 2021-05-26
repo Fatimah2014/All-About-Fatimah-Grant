@@ -6,7 +6,7 @@ will display a list of application, with the repository link that I created, My 
 ## Live link to deployed app
 
  
-    -My Porfolio: (https://fatimah2014.github.io/All-About-Fatimah-Grant/)
+    -My Porfolio: https://fatimah2014.github.io/All-About-Fatimah-Grant/
     
 
  ## Technologies used:
