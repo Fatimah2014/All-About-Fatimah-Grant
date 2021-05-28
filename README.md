@@ -20,7 +20,8 @@ My name is Fatimah Grant. I amenthusiatic, creative, innovative,</strong> and<st
                 skating, traveling and practicing martial arts.I enjoy meeting new people and learning new things.
                 Im often inspired through learning different was of life and how people interact with one another.
                 I don't take nothing in life for granted, for life is precious and so is our time. Because of this
-                I strive to become a better person each and everyday.    
+                I strive to become a better person each and everyday.   
+  
 
 
 ## Live link to deployed app
@@ -40,8 +41,9 @@ will display a list of application, with the repository link that I created, My 
 ![Screenshot (22)](https://user-images.githubusercontent.com/80806004/119611929-4ba34700-bdc9-11eb-9026-8d599cc96fdf.png)
 ![Screenshot (23)](https://user-images.githubusercontent.com/80806004/119611773-2282b680-bdc9-11eb-8ec2-7217a970eebe.png)
 
-
-
+## Github Repository:
+-foodApedia: https://github.com/santipalacios2002/foodApedia.git
+-Work day Scheduler:https://github.com/Fatimah2014/Work-Day-Scheduler.git
 ## Contact 
  -github: https://github.com/Fatimah2014
  
