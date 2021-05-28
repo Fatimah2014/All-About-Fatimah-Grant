@@ -45,9 +45,9 @@ will display a list of application, with the repository link that I created, My 
 -foodApedia: https://github.com/santipalacios2002/foodApedia.git
 -Work day Scheduler:https://github.com/Fatimah2014/Work-Day-Scheduler.git
 ## Contact 
- -github: https://github.com/Fatimah2014
+-github: https://github.com/Fatimah2014
  
- -linkkedin: https://www.linkedin.com/in/fatimah-grant-b72a0482
+-linkkedin: https://www.linkedin.com/in/fatimah-grant-b72a0482
 
 -Email: Fatimahg1102@gmail.com
 
