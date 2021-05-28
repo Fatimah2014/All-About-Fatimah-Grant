@@ -3,7 +3,7 @@ The main goal of the this application is to create a website that
 will display a list of application, with the repository link that I created, My resume, link to git hub pages, linkedin account,  and more.
 ---
 
-##Bio
+# Bio
 My name is Fatimah Grant. I amenthusiatic, creative, innovative,</strong> and<strong>
               versitile. I am currently a student in the UNC full stack web development program.
                I have 7 years of experince in bussiness and management, where my communication
