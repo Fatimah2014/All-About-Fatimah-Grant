@@ -69,6 +69,7 @@ ul {
 #work-sec, #my-info{
     background-color:rgb(107, 122, 136);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
      }
 
 .thumbnail:hover{
