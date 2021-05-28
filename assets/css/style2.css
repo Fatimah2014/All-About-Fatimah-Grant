@@ -10,9 +10,7 @@ body{
     color:silver;
     background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
 }
-    #about{
-        color: white;
-    }
+   
 
 a{
     border-bottom: 1px solid silver;
@@ -68,29 +66,28 @@ ul {
     margin-left: 20px;
 }
 
-     
-     #work-sec, #about{
-         background-color:rgb(107, 122, 136);
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
+#work-sec, #my-info{
+    background-color:rgb(107, 122, 136);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
-     .thumbnail:hover{
+
+.thumbnail:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: 1s ease;
+    }
 
 
+a{
+    color:black;
+}
 
-     }
-     a{
-         color:black;
 
-     }
 #footer{
- 
     text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
  
 }
