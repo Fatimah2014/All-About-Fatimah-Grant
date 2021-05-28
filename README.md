@@ -1,4 +1,7 @@
 # All-About-Fatimah-Grant
+
+![profile picture](https://user-images.githubusercontent.com/80806004/119920180-e0c54d80-bf39-11eb-87f2-0f4f6568da19.jpg)
+
 The main goal of the this application is to create a website that
 will display a list of application, with the repository link that I created, My resume, link to git hub pages, linkedin account,  and more.
 ---
