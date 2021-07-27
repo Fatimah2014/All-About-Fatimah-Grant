@@ -6,13 +6,23 @@
 
   }
   body {
-    background-color: black;
+    background-color: grey;
     background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
-    height: 100%; 
+    height: 200%; 
     background-position: center;
-    background-repeat: no-repeat;
+
     background-size: cover;
   }
+   .masthead{
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+    margin-bottom: 5%;
+  
+   }
+
    
    #title {
     font-size: 300px;
@@ -44,11 +54,10 @@ margin-right: auto;
 }
 
 #btn{
-  text-align: center;
-
+ 
   height: 200px;
   display: flex;
-  align-items: center;
+
   justify-content: center;
 }
 
@@ -75,7 +84,20 @@ margin-right: auto;
     margin-top: 100px;
     background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
     border: none;
+}
+#aboutme{
+  color: white;
+  background-color: gray;
+  height: 100%;
+  text-align: center;
+}
+.text{
+  font-size: 20px;
+  margin-top: 50px;
+  align-items: center;
+  width: 50%;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
 
-
-
-
+}
